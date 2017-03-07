@@ -5,6 +5,7 @@
 #include <fcntl.h>
 #include <semaphore.h>
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
 
 #define MAX_POD_NUM     256
@@ -30,9 +31,6 @@
  *  for named semaphore, use sem_close and sem_unlink (try using sighandler) 
  *  make sure to munmap before unlinking shared memory w/ shm_unlink
  *  do not use pointers inside shared memory
- *  make a shared mem struct 
- *      inside create char[number of pod][max size of data]
- *      create an int[]     <-- what for? key storage? pod index storage?
  *  deal with collisions?
  *      if yes add annother char[][] array
  *  make sure pods are circular when searching through them
@@ -42,21 +40,23 @@
  */
 
 /* Key value pair */
-typedef struct KvPairs {
+typedef struct {
     int key;
     char value[MAX_DATA_SIZE];
-} KvPair;
+} KvPair; 
 
 /* Pod: has a key and stores several key-value pairs. */
-typedef struct Pods {
+typedef struct {
     int key;
-    KvPair kvpairArray[MAX_POD_STORE];
-} Pod;
+    int num_of_kvpairs;
+    KvPair *indiv_kvpair;
+} Pod; 
 
-/* SharedMem: is an array of Pods, each with several kv-pairs */
-typedef struct SharedMems {
-    char *name;
-    Pod podArray[MAX_POD_NUM];
+/* SharedMem: is an array of Pods, each with several kv-pairs. */
+typedef struct {
+    char name[50];
+    int num_of_pods;
+    Pod *indiv_pod;
 } SharedMem;
 
 int kv_store_create(char *name);
@@ -65,8 +65,8 @@ char *kv_store_read(char *key);
 char **kv_store_read_all(char *key);
 
 main() {
-    // shm_open needs a slash at the start of the name, and no other
-    // slashes in the name
+    // shm_open needs a slash at the start of the name, 
+    // and no other slashes in the name
     kv_store_create("/wb_mem");
 }
 
@@ -74,22 +74,36 @@ main() {
  *                  return 0 on success, -1 if no memory available or
  *                  insufficient permissions */
 int kv_store_create(char *storeName) {
-    SharedMem sm;
+    SharedMem shm;
 
-    strcpy(sm.name, storeName);
-    int fd = shm_open(sm.name, O_CREAT|O_EXCL|O_RDWR, S_IRWXU);
+    // allocate memory for shm elements
+    shm.num_of_pods = MAX_POD_NUM;
+    shm.indiv_pod = malloc(sizeof(Pod) * shm.num_of_pods);
+    int i;
+    for (i = 0; i < shm.num_of_pods; i++) {
+        shm.indiv_pod [i].num_of_kvpairs = MAX_POD_STORE;
+        shm.indiv_pod [i].indiv_kvpair 
+            = malloc(sizeof(KvPair) * shm.indiv_pod [i].num_of_kvpairs); 
+    }
+    strcpy(shm.name, storeName);
+
+    int shm_size = MAX_POD_NUM * MAX_POD_STORE * MAX_DATA_SIZE;
+
+    int fd = shm_open(shm.name, O_CREAT|O_EXCL|O_RDWR, S_IRWXU);
     if (fd < 0) return -1;
 
-    int sm_size = MAX_POD_NUM * MAX_POD_STORE * MAX_DATA_SIZE;
-    char *addr = mmap(NULL, sm_size, PROT_READ | PROT_WRITE, 
+    char *addr = mmap(NULL, shm_size, PROT_READ | PROT_WRITE, 
             MAP_SHARED, fd, 0);
     if (addr == (void *)-1) return -1;
 
-    // set length of new shared memory object
-    ftruncate(fd, sm_size);
+    // truncate fd to be exactly as big as needed
+    ftruncate(fd, shm_size);
     close(fd);
 
-    // TODO: figure out how to give store location info to caller
+    // free memorey for shm elements
+    free(shm.indiv_pod);
+    for (i = 0; i < shm.num_of_pods; i++)
+        free(shm.indiv_pod [i].indiv_kvpair);
     return 0;
 }
 
