@@ -1,0 +1,5 @@
+a.out
+a.out.old
+long_command
+minish.c
+test.txt

@@ -1,0 +1,1 @@
+ls | wc -m | toilet -tf mono9 | less
