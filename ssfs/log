@@ -1,0 +1,3 @@
+Error: Too many files in the file system (max = 72); cannot create a new file.
+Error: Too many files in the file system (max = 72); cannot create a new file.
+Warning: ssfs_fwrite should return number of bytes written. Potential write fail?

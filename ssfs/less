@@ -1,0 +1,445 @@
+Error: No open file associated with file descriptor 0
+Failed to close. This is OK.
+Error: File descriptor -30000 out of bounds [0, 20]
+Failed to close. This is OK.
+Error: No open file associated with file descriptor 5
+Failed to close. This is OK.
+Error: No open file associated with file descriptor 0
+Failed to read. This is OK.
+Error: No open file associated with file descriptor 1
+Failed to close. This is OK.
+Error: File descriptor -30000 out of bounds [0, 20]
+Failed to close. This is OK.
+Error: No open file associated with file descriptor 5
+Failed to close. This is OK.
+Error: No open file associated with file descriptor 1
+Failed to read. This is OK.
+Error: No open file associated with file descriptor 2
+Failed to close. This is OK.
+Error: File descriptor -30000 out of bounds [0, 20]
+Failed to close. This is OK.
+Error: No open file associated with file descriptor 5
+Failed to close. This is OK.
+Error: No open file associated with file descriptor 2
+Failed to read. This is OK.
+Error: No open file associated with file descriptor 3
+Failed to close. This is OK.
+Error: File descriptor -30000 out of bounds [0, 20]
+Failed to close. This is OK.
+Error: No open file associated with file descriptor 5
+Failed to close. This is OK.
+Error: No open file associated with file descriptor 3
+Failed to read. This is OK.
+Error: No open file descriptors
+Failed to close. This is OK.
+Error: No open file descriptors
+Failed to close. This is OK.
+Error: No open file descriptors
+Failed to close. This is OK.
+Error: No open file descriptors
+Failed to read. This is OK.
+Error: 
+Read failed. Read:
+
+Should have Read:
+Graphic Card is life. I need a 1080 for Christmas. As a side note, it's quite obvious when people copy from github. Usually there's more than one guy copying for the same repository.
+
+Error: 
+Read failed. Read:
+
+Should have Read:
+Graphic Card is life. I need a 1080 for Christmas. As a side note, it's quite obvious when people copy from github. Usually there's more than one guy copying for the same repository.
+
+Error: 
+Read failed. Read:
+
+Should have Read:
+Graphic Card is life. I need a 1080 for Christmas. As a side note, it's quite obvious when people copy from github. Usually there's more than one guy copying for the same repository.
+
+Error: 
+Read failed. Read:
+
+Should have Read:
+Graphic Card is life. I need a 1080 for Christmas. As a side note, it's quite obvious when people copy from github. Usually there's more than one guy copying for the same repository.
+
+Error: 
+Read failed. Read:
+
+Should have Read:
+Graphic Card is life. I need a 1080 for Christmas. As a side note, it's quite obvious when people copy from github. Usually there's more than one guy copying for the same repository.
+
+Error: 
+Read failed.
+
+Error: 
+Read failed.
+
+Error: 
+Read failed.
+
+Error: 
+Read failed.
+
+Error: 
+Read failed.
+
+Error: Read pointer cannot be moved to given location
+Error: Read pointer cannot be moved to given location
+Error: Write pointer cannot be moved to given location
+Warning: ssfs_frseek returned positive. Seek location beyond file size attempted. Potential fwseek fail?
+Error: Read pointer cannot be moved to given location
+Error: Read pointer cannot be moved to given location
+Error: Write pointer cannot be moved to given location
+Warning: ssfs_frseek returned positive. Seek location beyond file size attempted. Potential fwseek fail?
+Error: Read pointer cannot be moved to given location
+Error: Read pointer cannot be moved to given location
+Error: Write pointer cannot be moved to given location
+Warning: ssfs_frseek returned positive. Seek location beyond file size attempted. Potential fwseek fail?
+Error: Read pointer cannot be moved to given location
+Error: Read pointer cannot be moved to given location
+Error: Write pointer cannot be moved to given location
+Warning: ssfs_frseek returned positive. Seek location beyond file size attempted. Potential fwseek fail?
+Error: Read pointer cannot be moved to given location
+Error: Read pointer cannot be moved to given location
+Error: Write pointer cannot be moved to given location
+Warning: ssfs_frseek returned positive. Seek location beyond file size attempted. Potential fwseek fail?
+Error: 
+Read failed. Read:
+
+Should have Read:
+Graphic Card is life. I need a 1080 for Christmas. As a side note, it's quite obvious when people copy from github. Usually there's more than one guy copying for the same repository.
+
+Error: 
+Read failed. Read:
+
+Should have Read:
+Graphic Card is life. I need a 1080 for Christmas. As a side note, it's quite obvious when people copy from github. Usually there's more than one guy copying for the same repository.
+
+Error: 
+Read failed. Read:
+
+Should have Read:
+Graphic Card is life. I need a 1080 for Christmas. As a side note, it's quite obvious when people copy from github. Usually there's more than one guy copying for the same repository.
+
+Error: 
+Read failed. Read:
+
+Should have Read:
+Graphic Card is life. I need a 1080 for Christmas. As a side note, it's quite obvious when people copy from github. Usually there's more than one guy copying for the same repository.
+
+Error: 
+Read failed. Read:
+
+Should have Read:
+Graphic Card is life. I need a 1080 for Christmas. As a side note, it's quite obvious when people copy from github. Usually there's more than one guy copying for the same repository.
+
+Error: 
+Read failed.
+
+Error: 
+Read failed.
+
+Error: 
+Read failed.
+
+Error: 
+Read failed.
+
+Error: 
+Read failed.
+
+Error: Read pointer cannot be moved to given location
+Error: Read pointer cannot be moved to given location
+Error: Write pointer cannot be moved to given location
+Warning: ssfs_frseek returned positive. Seek location beyond file size attempted. Potential fwseek fail?
+Error: Read pointer cannot be moved to given location
+Warning: ssfs_frseek returned negative. Potential frseek fail?
+Error: Read pointer cannot be moved to given location
+Error: Read pointer cannot be moved to given location
+Error: Write pointer cannot be moved to given location
+Warning: ssfs_frseek returned positive. Seek location beyond file size attempted. Potential fwseek fail?
+Error: Read pointer cannot be moved to given location
+Warning: ssfs_frseek returned negative. Potential frseek fail?
+Error: Read pointer cannot be moved to given location
+Error: Read pointer cannot be moved to given location
+Error: Write pointer cannot be moved to given location
+Warning: ssfs_frseek returned positive. Seek location beyond file size attempted. Potential fwseek fail?
+Error: Read pointer cannot be moved to given location
+Warning: ssfs_frseek returned negative. Potential frseek fail?
+Error: Read pointer cannot be moved to given location
+Error: Read pointer cannot be moved to given location
+Error: Write pointer cannot be moved to given location
+Warning: ssfs_frseek returned positive. Seek location beyond file size attempted. Potential fwseek fail?
+Error: Read pointer cannot be moved to given location
+Warning: ssfs_frseek returned negative. Potential frseek fail?
+Error: Read pointer cannot be moved to given location
+Error: Read pointer cannot be moved to given location
+Error: Write pointer cannot be moved to given location
+Warning: ssfs_frseek returned positive. Seek location beyond file size attempted. Potential fwseek fail?
+Error: Read pointer cannot be moved to given location
+Warning: ssfs_frseek returned negative. Potential frseek fail?
+Error: 
+Read failed. Read:
+
+Should have Read:
+Graphic Card is life. I need a 1080 for Christmas. As a side note, it's quite obvious when people copy from github. Usually there's more than one guy copying for the same repository.
+
+Error: 
+Read failed. Read:
+
+Should have Read:
+Graphic Card is life. I need a 1080 for Christmas. As a side note, it's quite obvious when people copy from github. Usually there's more than one guy copying for the same repository.
+
+Error: 
+Read failed. Read:
+
+Should have Read:
+Graphic Card is life. I need a 1080 for Christmas. As a side note, it's quite obvious when people copy from github. Usually there's more than one guy copying for the same repository.
+
+Error: 
+Read failed. Read:
+
+Should have Read:
+Graphic Card is life. I need a 1080 for Christmas. As a side note, it's quite obvious when people copy from github. Usually there's more than one guy copying for the same repository.
+
+Error: 
+Read failed. Read:
+
+Should have Read:
+Graphic Card is life. I need a 1080 for Christmas. As a side note, it's quite obvious when people copy from github. Usually there's more than one guy copying for the same repository.
+
+Error: 
+Read failed.
+
+Error: 
+Read failed.
+
+Error: 
+Read failed.
+
+Error: 
+Read failed.
+
+Error: 
+Read failed.
+
+Error: Read pointer cannot be moved to given location
+Error: Read pointer cannot be moved to given location
+Error: Write pointer cannot be moved to given location
+Warning: ssfs_frseek returned positive. Seek location beyond file size attempted. Potential fwseek fail?
+Error: Read pointer cannot be moved to given location
+Warning: ssfs_frseek returned negative. Potential frseek fail?
+Error: Read pointer cannot be moved to given location
+Error: Read pointer cannot be moved to given location
+Error: Write pointer cannot be moved to given location
+Warning: ssfs_frseek returned positive. Seek location beyond file size attempted. Potential fwseek fail?
+Error: Read pointer cannot be moved to given location
+Warning: ssfs_frseek returned negative. Potential frseek fail?
+Error: Read pointer cannot be moved to given location
+Error: Read pointer cannot be moved to given location
+Error: Write pointer cannot be moved to given location
+Warning: ssfs_frseek returned positive. Seek location beyond file size attempted. Potential fwseek fail?
+Error: Read pointer cannot be moved to given location
+Warning: ssfs_frseek returned negative. Potential frseek fail?
+Error: Read pointer cannot be moved to given location
+Error: Read pointer cannot be moved to given location
+Error: Write pointer cannot be moved to given location
+Warning: ssfs_frseek returned positive. Seek location beyond file size attempted. Potential fwseek fail?
+Error: Read pointer cannot be moved to given location
+Warning: ssfs_frseek returned negative. Potential frseek fail?
+Error: Read pointer cannot be moved to given location
+Error: Read pointer cannot be moved to given location
+Error: Write pointer cannot be moved to given location
+Warning: ssfs_frseek returned positive. Seek location beyond file size attempted. Potential fwseek fail?
+Error: Read pointer cannot be moved to given location
+Warning: ssfs_frseek returned negative. Potential frseek fail?
+Error: 
+Read failed. Read:
+
+Should have Read:
+Graphic Card is life. I need a 1080 for Christmas. As a side note, it's quite obvious when people copy from github. Usually there's more than one guy copying for the same repository.
+
+Error: 
+Read failed. Read:
+
+Should have Read:
+Graphic Card is life. I need a 1080 for Christmas. As a side note, it's quite obvious when people copy from github. Usually there's more than one guy copying for the same repository.
+
+Error: 
+Read failed. Read:
+
+Should have Read:
+Graphic Card is life. I need a 1080 for Christmas. As a side note, it's quite obvious when people copy from github. Usually there's more than one guy copying for the same repository.
+
+Error: 
+Read failed. Read:
+
+Should have Read:
+Graphic Card is life. I need a 1080 for Christmas. As a side note, it's quite obvious when people copy from github. Usually there's more than one guy copying for the same repository.
+
+Error: 
+Read failed. Read:
+
+Should have Read:
+Graphic Card is life. I need a 1080 for Christmas. As a side note, it's quite obvious when people copy from github. Usually there's more than one guy copying for the same repository.
+
+Error: 
+Read failed.
+
+Error: 
+Read failed.
+
+Error: 
+Read failed.
+
+Error: 
+Read failed.
+
+Error: 
+Read failed.
+
+Error: Read pointer cannot be moved to given location
+Error: Read pointer cannot be moved to given location
+Error: Write pointer cannot be moved to given location
+Warning: ssfs_frseek returned positive. Seek location beyond file size attempted. Potential fwseek fail?
+Error: Read pointer cannot be moved to given location
+Warning: ssfs_frseek returned negative. Potential frseek fail?
+Error: Read pointer cannot be moved to given location
+Error: Read pointer cannot be moved to given location
+Error: Write pointer cannot be moved to given location
+Warning: ssfs_frseek returned positive. Seek location beyond file size attempted. Potential fwseek fail?
+Error: Read pointer cannot be moved to given location
+Warning: ssfs_frseek returned negative. Potential frseek fail?
+Error: Read pointer cannot be moved to given location
+Error: Read pointer cannot be moved to given location
+Error: Write pointer cannot be moved to given location
+Warning: ssfs_frseek returned positive. Seek location beyond file size attempted. Potential fwseek fail?
+Error: Read pointer cannot be moved to given location
+Warning: ssfs_frseek returned negative. Potential frseek fail?
+Error: Read pointer cannot be moved to given location
+Error: Read pointer cannot be moved to given location
+Error: Write pointer cannot be moved to given location
+Warning: ssfs_frseek returned positive. Seek location beyond file size attempted. Potential fwseek fail?
+Error: Read pointer cannot be moved to given location
+Warning: ssfs_frseek returned negative. Potential frseek fail?
+Error: Read pointer cannot be moved to given location
+Error: Read pointer cannot be moved to given location
+Error: Write pointer cannot be moved to given location
+Warning: ssfs_frseek returned positive. Seek location beyond file size attempted. Potential fwseek fail?
+Error: Read pointer cannot be moved to given location
+Warning: ssfs_frseek returned negative. Potential frseek fail?
+Error: 
+Read failed. Read:
+
+Should have Read:
+Graphic Card is life. I need a 1080 for Christmas. As a side note, it's quite obvious when people copy from github. Usually there's more than one guy copying for the same repository.
+
+Error: 
+Read failed. Read:
+
+Should have Read:
+Graphic Card is life. I need a 1080 for Christmas. As a side note, it's quite obvious when people copy from github. Usually there's more than one guy copying for the same repository.
+
+Error: 
+Read failed. Read:
+
+Should have Read:
+Graphic Card is life. I need a 1080 for Christmas. As a side note, it's quite obvious when people copy from github. Usually there's more than one guy copying for the same repository.
+
+Error: 
+Read failed. Read:
+
+Should have Read:
+Graphic Card is life. I need a 1080 for Christmas. As a side note, it's quite obvious when people copy from github. Usually there's more than one guy copying for the same repository.
+
+Error: 
+Read failed. Read:
+
+Should have Read:
+Graphic Card is life. I need a 1080 for Christmas. As a side note, it's quite obvious when people copy from github. Usually there's more than one guy copying for the same repository.
+
+Error: 
+Read failed.
+
+Error: 
+Read failed.
+
+Error: 
+Read failed.
+
+Error: 
+Read failed.
+
+Error: 
+Read failed.
+
+Error: No open file associated with file descriptor 0
+Failed to close. This is OK.
+Error: File descriptor -30000 out of bounds [0, 20]
+Failed to close. This is OK.
+Error: No open file associated with file descriptor 5
+Failed to close. This is OK.
+Error: No open file associated with file descriptor 0
+Failed to read. This is OK.
+Error: No open file associated with file descriptor 1
+Failed to close. This is OK.
+Error: File descriptor -30000 out of bounds [0, 20]
+Failed to close. This is OK.
+Error: No open file associated with file descriptor 5
+Failed to close. This is OK.
+Error: No open file associated with file descriptor 1
+Failed to read. This is OK.
+Error: No open file associated with file descriptor 2
+Failed to close. This is OK.
+Error: File descriptor -30000 out of bounds [0, 20]
+Failed to close. This is OK.
+Error: No open file associated with file descriptor 5
+Failed to close. This is OK.
+Error: No open file associated with file descriptor 2
+Failed to read. This is OK.
+Error: No open file associated with file descriptor 3
+Failed to close. This is OK.
+Error: File descriptor -30000 out of bounds [0, 20]
+Failed to close. This is OK.
+Error: No open file associated with file descriptor 5
+Failed to close. This is OK.
+Error: No open file associated with file descriptor 3
+Failed to read. This is OK.
+Error: No open file descriptors
+Failed to close. This is OK.
+Error: No open file descriptors
+Failed to close. This is OK.
+Error: No open file descriptors
+Failed to close. This is OK.
+Error: No open file descriptors
+Failed to read. This is OK.
+Error: 
+Read failed.
+
+Error: 
+Read failed.
+
+Error: 
+Read failed.
+
+Error: 
+Read failed.
+
+Error: 
+Read failed.
+
+Error: 
+Read failed.
+
+Error: 
+Read failed.
+
+Error: 
+Read failed.
+
+Error: 
+Read failed.
+
+Error: 
+Read failed.
+
